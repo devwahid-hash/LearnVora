@@ -234,6 +234,7 @@ export const enrolledCourse = async (req, res) => {
   }
 };
 
+
 export const searchWithAi = async (req, res) => {
   try {
     const { input } = req.body;
